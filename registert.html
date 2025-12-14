@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f3;
+        }
+
+    
+        .navbar {
+            background: #002855;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 0 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            background-color: #06642e;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 40%;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #0a7e3a;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        header{
+            background: #004aad;
+            color: white;
+            padding: 18px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #06642e;
+        }
+    </style>
+</head>
+<body>
+    <header>Register page</header>
+
+    <div class="navbar">
+       <a href="index.html">Home</a>
+        <a href="undergraduate.html">Undergraduate</a>
+        <a href="postgraduate.html">Postgraduate</a>
+        <a href="phd.html">PhD</a>
+        <a href="blog.html">About </a>
+        <a href="contact.html">Contact</a>
+        <a href="registert.html">Register</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    
+    <div class="container">
+        <h2>Create Your Account</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Mobile Number</label>
+            <input type="text" placeholder="Enter your mobile number" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Create a password" required>
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Re-enter your password" required>
+
+            <button class="btn" type="submit">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
